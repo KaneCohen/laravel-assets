@@ -255,7 +255,7 @@ class Asset
 	 *
 	 * @return void
 	*/
-	protected static function processAdd($a, $params, $onUnknownExtension = false)
+	protected static function processAdd(string $a, $params, $onUnknownExtension = false)
 	{
 		// check for '*' character
 		static::checkVersion($a);
